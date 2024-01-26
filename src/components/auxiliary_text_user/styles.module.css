@@ -1,0 +1,17 @@
+.descriptionContainer {
+    width: 280px;
+    height: 180px;
+    font-size: 14px;
+    top: 98px;
+    left: 20px;
+    position: absolute;
+    text-align: left;
+}
+
+.description {
+    color: #8E87A3;
+}
+
+strong {
+    font-family: "MuseoSansCyrl500";
+}

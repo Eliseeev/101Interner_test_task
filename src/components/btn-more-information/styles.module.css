@@ -1,0 +1,20 @@
+.btnContainer {
+    margin-top: 10px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    top: 858px;
+    left: 90px;
+    background: #5813FE;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnText {
+    font-family: 'MuseoSansCyrl500';
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}

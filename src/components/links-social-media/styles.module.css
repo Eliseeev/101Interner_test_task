@@ -1,0 +1,19 @@
+.footerTextLinks {
+    color: #8E87A3;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'MuseoSansCyrl500';
+}
+
+.linkLogo {
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.linkLogoMoreTwo {
+    margin-bottom: 4px;
+    margin-left: 5px;
+}
