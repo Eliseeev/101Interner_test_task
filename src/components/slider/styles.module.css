@@ -1,0 +1,18 @@
+.sliderContainer {
+  width: 235px;
+  height: 90px;
+  top: 583px;
+  border: 1px solid #D2CEE0;
+  border-radius: 10px;
+  margin-left: 12px;
+}
+
+.customSlider {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 55px;
+}
+
+
+
+

@@ -1,17 +1,4 @@
-@font-face { 
-    font-family: "MuseoSansCyrl300";
-    src: url("./fonts/MuseoSansCyrl/MuseoSansCyrl300/MuseoSansCyrl300.woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face { 
-    font-family: "MuseoSansCyrl500";
-    src: url("./fonts/MuseoSansCyrl/MuseoSansCyrl500/MuseoSansCyrl500.woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
+@import url('./fonts/fonts.css');
 
 * {
     margin: 0;

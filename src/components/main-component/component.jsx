@@ -1,7 +1,5 @@
 import styles from './styles.module.css'
 import provider_logo from './images/provider_logo.svg'
-import add from './images/add.svg'
-import subtract from './images/subtract.svg'
 import gigabytes from './images/gigabytes.svg'
 import minutes from './images/minutes.svg'
 import rub_minutes from './images/rub_minutes.svg'
@@ -11,6 +9,8 @@ import { ButtonGetMoreInformation } from '../btn-more-information/component'
 import { SocialMediaLinks } from '../links-social-media/component'
 import { AuxiliaryTextUser } from '../auxiliary_text_user/component'
 import { CheckboxFix } from '../checkbox_fix/component'
+import { ButtonAddValue } from '../btn-add/component'
+import { ButtonSubtractValue } from '../btn-subtract/component'
 
 
 export const MainPage = () => {
@@ -39,23 +39,23 @@ export const MainPage = () => {
                             <CheckboxFix/>
 
                         <div className={styles.parameterGigabytes}>
-                            <img src = {add} alt = 'add'/>
+                            <ButtonAddValue/>
                             <img src = {gigabytes} alt = 'gigabytes'/>
-                            <img src = {subtract} alt = 'subtract'/>
+                            <ButtonSubtractValue/>
                             <CheckboxFix/>
                         </div>
 
                         <div className={styles.parameterMinutes}>
-                            <img src = {add} alt = 'add'/>
+                            <ButtonAddValue/>
                             <img src = {minutes} alt = 'minutes'/>
-                            <img src = {subtract} alt = 'subtract'/>
+                            <ButtonSubtractValue/>
                             <CheckboxFix/>
                         </div>
 
                         <div className={styles.parameterRubMinutes}>
-                            <img src = {add} alt = 'add'/>
+                            <ButtonAddValue/>
                             <img src = {rub_minutes} alt = 'rub_minutes'/>
-                            <img src = {subtract} alt = 'subtract'/>
+                            <ButtonSubtractValue/>
                             <CheckboxFix/>
                         </div>
 
